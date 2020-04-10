@@ -3,7 +3,7 @@ const app = express();
 const morgan = require("morgan");
 
 //setting
-app.set("port", process.env.PORT || 80)
+app.set("port", process.env.PORT || 3000)
 app.set("json spaces",2 )
 
 //middlewares
